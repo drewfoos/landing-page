@@ -1,0 +1,185 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto";
+  display: flex;
+  flex-direction: column;
+}
+
+nav,
+.hero {
+  background-color: #1f2937;
+  color: white;
+  padding: 20px 200px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 200px 60px 200px;
+}
+
+.header-left,
+.header-right {
+  display: flex;
+}
+
+.header-left {
+  flex-direction: column;
+  flex: 1;
+  max-width: 400px;
+}
+
+.header-right {
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 220px;
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+button,
+.calltoaction {
+  background-color: #3882f6;
+}
+
+.hero-secondary {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.sign-up {
+  color: white;
+  border-radius: 5px;
+  align-self: flex-start;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  font-size: 16px;
+}
+
+/* Info section */
+h2 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+
+.card .image {
+  border: #3882f6 solid 3px;
+  border-radius: 5px;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.cards .card p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Quote Section */
+.quote {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  margin-top: 50px;
+  flex-direction: column;
+}
+
+blockquote {
+  font-size: 26px;
+  font-style: italic;
+  font-weight: light;
+  color: #1f2937;
+  width: 50%;
+}
+
+cite {
+  margin-left: 300px;
+  font-style: italic;
+  font-weight: light;
+  color: #1f2937;
+  font-weight: bold;
+}
+
+/* Call to action */
+.calltoaction {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  padding: 40px;
+  width: 70%;
+  margin: 80px auto;
+  align-items: center;
+}
+
+.call-right button {
+  border-radius: 5px;
+  color: white;
+  background-color: transparent;
+  font-size: 15px;
+  padding: 8px 20px;
+  border: 1px white solid;
+}
+
+/* footer */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #202c34;
+  color: #f9faf8;
+  padding: 20px;
+}
